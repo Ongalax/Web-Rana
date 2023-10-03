@@ -1,0 +1,10 @@
+@import "reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import "variables.css";
+@import "navbar.css";
+@import "hero.css";
+@import "features.css";
+@import "footer.css";

@@ -1,0 +1,116 @@
+.hero {
+    position: relative;
+    padding-bottom: 6rem;
+}
+
+.frog {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.frogimg {
+    position: relative;
+    height: auto;
+    padding: 1rem 0;
+    border-radius: 50%;
+    top: 20px;
+}
+
+.circle {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+    transform: translate(0, -40%);
+}
+
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.hero-title {
+    font-size: 3rem;
+    text-align: center;
+    max-width: 360px;
+}
+
+.hero-content button {
+    background-color: var(--violet-color);
+    padding: 0.25em 0.5em;
+    border-radius: 20px;
+    width: fit-content;
+    border: 1px solid var(--violet-color);
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.hero-content a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 300ms;
+}
+
+.violet-tree {
+    width: 400px;
+    position: absolute;
+    bottom: -55px;
+    left: 0;
+    z-index: -2;
+    transform: translate(-52%, 35%);
+}
+
+.frog-draw {
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transform: translate(40%, 45%);
+}
+
+.prints {
+    position: absolute;
+    top: -5px;
+    width: 40px;
+    transform: rotate(-75deg) translate(0, -140%);
+}
+
+.prints2 {
+    position: absolute;
+    top: -20px;
+    width: 40px;
+    transform: rotate(-75deg);
+}
+
+.prints3 {
+    position: absolute;
+    top: -35px;
+    width: 40px;
+    transform: rotate(-75deg) translate(0, 140%);
+}
+
+.hero-content button:hover {
+    cursor: pointer;
+    background-color: rgba(63, 247, 247, 0.614);
+    border: 1px solid var(--violet-color);
+    scale: 1.10;
+}
+
+.hero-content button a:hover {
+    cursor: pointer;
+    color: black;
+}
